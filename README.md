@@ -21,7 +21,7 @@ And after that we create the class: "container" and from there we create other e
 
 
 ## Project Root
-└── email-signup-form
+ ├── email-signup-form
     ├── scss             
         ├── breakpoints 
             └── _mobile.scss   
