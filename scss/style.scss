@@ -1,4 +1,5 @@
 
+$dark-color: black;
 
 * { 
     box-sizing: border-box;
@@ -13,3 +14,9 @@ body {
     max-width: 434px;
     margin: 0 auto;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
