@@ -9,7 +9,7 @@
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
-      body: {"email" : "test@email.com"}
+      body: {"email" : document.querySelector("#newsletter-email").textContent }
     });
      
   }  
