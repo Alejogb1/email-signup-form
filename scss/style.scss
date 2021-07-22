@@ -19,7 +19,11 @@ body {
         margin: 0 10px;
     }
 }
-
+.container__header {
+    @include for-tablets-only {
+        font-size: 1.5rem;
+    }
+}
 .grid {
     display: flex;
     flex-wrap: wrap;
