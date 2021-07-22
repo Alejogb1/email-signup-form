@@ -7,6 +7,30 @@ Page container is our principal block of our app.
 
 And after that we create the class: "container" and from there we create other elements from it: "container___header", and "container__newsletter".
 
+## HOW BEM IS PRESENT ON THIS APP
+* Block: page
+* Element: page__container
+* Block : container
+* Element : container__header
+* Element : container__newsletter
+* Block : grid
+* Block : input
+* Element : input__input
+* Element : input__button
+* Element : button & modifiers: button--primary button--input  
+
+
+## Project Root
+└── email-signup-form
+    ├── scss             
+        ├── breakpoints 
+            └── _mobile.scss   
+        └── _buttons.scss
+        └── _config.scss           
+        └── style.scss            
+     
+    └── src
+            └── service.js
 ## grid or grid--small?
 
 In this case we do not have other grid elements that are being used, only one.
@@ -19,5 +43,4 @@ Same applies for input--small
 * button--input 
 
 This is the case where we are using a primary button but as it is placed in our 
-form newsletter, there should be a modifier to maybegive it a border radius that matchs the 
-sign up form.
+form newsletter, there should be a modifier to give it a color that contrasts the form.

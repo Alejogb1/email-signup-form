@@ -1,3 +1,23 @@
+.button {
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: black;
+  color: white;
+}
+
+.button--input {
+  color: white;
+  background-color: black;
+  padding: 16px 20px 16px 20px;
+  font-size: 1rem;
+  line-height: 0.8rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +26,60 @@
 body {
   background-color: #eab10e;
   font-family: "Suisse Intl", sans-serif;
+}
+
+.page__container {
+  max-width: 434px;
+  margin: 0 auto;
+}
+@media (max-width: 700px) {
+  .page__container {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container__header {
+    font-size: 1.5rem;
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  position: relative;
+  border: 1px solid rgba(160, 160, 160, 0.26);
+  border-radius: 9px;
+  width: 100%;
+  min-width: 80px;
+  height: 64px;
+  background-color: rgba(0, 0, 0, 0.04);
+  cursor: text;
+  font-family: "Suisse Intl", sans-serif;
+  font-size: 1rem;
+}
+.input .input__input {
+  display: block;
+  outline: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  width: 100%;
+  height: 100%;
+  background: none;
+  color: black;
+  line-height: 1.5;
+}
+
+.input__button {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
