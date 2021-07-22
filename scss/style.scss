@@ -1,7 +1,6 @@
-@import "./breakpoints/breakpoints";
 @import "buttons";
 @import "config";
-
+@import "breakpoints/mobile";
 
 * { 
     box-sizing: border-box;
@@ -16,7 +15,7 @@ body {
 .page__container {
     max-width: 434px;
     margin: 0 auto;
-    @include breakpoint("<=phone") {
+    @include for-tablets-only {
         margin: 0 10px;
     }
 }

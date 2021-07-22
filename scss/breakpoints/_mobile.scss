@@ -1,0 +1,4 @@
+@mixin for-tablets-only  {
+    @media (max-width: 700px) {@content}
+    
+}
