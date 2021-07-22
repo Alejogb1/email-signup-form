@@ -44,3 +44,28 @@ body {
         line-height: 1.5;
     }
 }
+
+.input__button {
+    position: absolute;
+    top:6px;
+    right: 5px;
+    z-index: 1;
+}
+.button {
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+.button--primary {
+    background-color: $dark-color;
+    color: white;
+}
+
+.button--input {
+    color: white;
+    background-color: black;
+    padding: 16px 20px 16px 20px;
+    font-size: 1rem;
+    line-height: 0.8rem;
+}
