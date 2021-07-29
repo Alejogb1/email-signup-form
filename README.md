@@ -21,16 +21,7 @@ And after that we create the class: "container" and from there we create other e
 
 
 ## Project Root
-└── email-signup-form
-    ├── scss             
-        ├── breakpoints 
-            └── _mobile.scss   
-        └── _buttons.scss
-        └── _config.scss           
-        └── style.scss            
-     
-    └── src
-            └── service.js
+![image](https://user-images.githubusercontent.com/52103963/126656603-d639f4a2-e710-406a-b294-f6630f649ea0.png)
 ## grid or grid--small?
 
 In this case we do not have other grid elements that are being used, only one.
