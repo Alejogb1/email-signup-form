@@ -34,7 +34,7 @@ And after that we create the class: "container" and from there we create other e
 ## grid or grid--small?
 
 In this case we do not have other grid elements that are being used, only one.
-But in the case we've had more than one, the modifier "grid--small" would be used.
+So in the case we've had more than one, the modifier "grid--small" would be used.
 
 Same applies for input--small
 
